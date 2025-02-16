@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "schep-is",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-14",
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [{ "binding": "KV", "id": "1b957eead2fa43b4a101b6c03322006d" }]
+}
