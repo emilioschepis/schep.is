@@ -16,9 +16,7 @@
     "module": "preserve",
     "noEmit": true,
 
-    "lib": ["es2022"],
-
-    "types": ["@cloudflare/workers-types/2023-07-01"]
+    "lib": ["es2022"]
   },
   "include": ["worker-configuration.d.ts", "src/**/*.ts"]
 }
